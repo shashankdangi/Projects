@@ -1,0 +1,107 @@
+:root{
+    --main-color: #ffffff;
+    --background: #B3d9b2;
+    --shadow: #d1edcc;
+    --light-green: #c4e6b8;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background);
+    font-family: 'Dosis', sans-serif;
+}
+.container{
+    /* border: 2px solid black; */
+    font-family: 'Dosis', sans-serif;
+    outline: none;
+    width: 90vmin;
+    margin: 0;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    display: block;
+    background-color: var(--light-green);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.359);
+    border-radius: 10px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    margin: 3px;
+    text-transform: uppercase;
+    /* text-decoration: underline; */
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+}
+.search input{
+    width: 50%;
+    font-size: 24px;
+    padding: 8px;
+    margin-left: 20px;
+    background-color: var(--light-green);
+    border: none;
+    border-bottom: 2px solid  black;
+    font-weight: 600;
+    outline: none;
+    font-family: 'Dosis', sans-serif;
+
+    
+}
+.search #btn{
+    width: 20%;
+    border: none;
+    outline: none;
+    background-color: #B3d9b2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.222);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    font-family: 'Dosis', sans-serif;
+
+
+}
+.search #reset{
+    font-family: 'Dosis', sans-serif;
+    width: 20%;
+    margin-right: 30px;
+    border: none;
+    outline: none;
+    background-color: #B3d9b2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 9px rgba(0, 0, 0, 0.222);
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    
+
+}
+#items{
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+    /* align-items: center; */
+    margin-left: 40px;
+    padding: 15px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    font-weight: 600;
+}
