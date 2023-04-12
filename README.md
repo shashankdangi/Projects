@@ -12,3 +12,6 @@ Web Development Projects
 
 ##Shopping List
 ![alt text](https://github.com/shashankdangi/Projects/blob/main/Shopping%20list/Screenshot%202023-04-12%20180742.png?raw=true)
+
+##QR Code Generator
+![alt text](https://github.com/shashankdangi/Projects/blob/main/QR%20Generator%202/Screenshot%202023-04-12%20232813.png?raw=true)
