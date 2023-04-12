@@ -1,0 +1,46 @@
+body{
+    background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);}
+h1{
+    text-transform: uppercase;
+    font-family: "Gotham", sans-serif;
+    text-align: center;
+    padding: 30px;
+
+}
+.container{
+    justify-content: center;
+    border: 2px solid ;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 5px 5px ;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    width: 90vmin;
+}
+.colors{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    gap: 10px;
+}
+.colors input{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px  rgba(0, 0, 0, 0.411);
+}
+h3{
+    font-family: "gotham", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-weight: 600;
+}
